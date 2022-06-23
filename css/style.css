@@ -3,21 +3,21 @@ body {
 	font-family: Arial, Sans-serif; /* задаю шрифти для всього Проєкту.
 	Якщо браузер не знаходить перший шрифт, використовує наступний */
 	font-size: 100%; /* Задаємо дефолтний розмір шрифтів */
-}
+	}
 
-/* * {text-align: center;} /* Звертаюся одночасно до всіх елементів */
+	/* * {text-align: center;} /* Звертаюся одночасно до всіх елементів */
 
-h1 {
-	font-size: 20px;
-	color: gray;
-}
+	h1 {
+		font-size: 20px;
+		color: gray;
+	}
 
-p {
-	color: gray;
-}
+	p {
+		color: gray;
+	}
 
-@media only screen and (orientation: portrait) { /* Для девайсів з портретним дисплеєм */
-	h1, p, a {
+	@media only screen and (orientation: portrait) { /* Для девайсів з портретним дисплеєм */
+		h1, p, a {
 		font-size: 200%; /* Збільшую розмір шрифтів вдвічі */
 	}
 }
