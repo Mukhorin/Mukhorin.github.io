@@ -14,7 +14,5 @@ body {
 	p {color: gray;}
 
 	@media only screen and (orientation: portrait) { /* Для девайсів з портретним дисплеєм */
-		h1, h3, p, a {
-		font-size: 200%; /* Збільшую розмір шрифтів вдвічі */
-	}
+		h1, h3, p, a {font-size: 200%;} /* Збільшую розмір шрифтів вдвічі */
 }
