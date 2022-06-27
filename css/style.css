@@ -11,6 +11,6 @@ body {
 
 	h3 {font-size: 15px;}
 
-	@media only screen and (orientation: portrait) /* Для девайсів з портретним дисплеєм */
-	{h1, h3, p, a {font-size: 200%;} /* Збільшую розмір шрифтів вдвічі */
+	/* @media only screen and (orientation: portrait) /* Для девайсів з портретним дисплеєм */
+	/* {h1, h3, p, a {font-size: 200%;} /* Збільшую розмір шрифтів вдвічі */
 }
