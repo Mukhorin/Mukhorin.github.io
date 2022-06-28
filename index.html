@@ -30,7 +30,7 @@
 	        width: auto;
 	        padding: 16px;
 	        margin-top: -22px;
-	        color: white;
+	        color: grey;
 	        font-weight: bold;
 	        font-size: 18px;
 	        transition: 0.6s ease;
@@ -204,35 +204,6 @@
 	      <span class="dot" onclick="currentSlide(13)"></span>
 	    </div>
 
-	    <script>
-	      var slideIndex = 1;
-	      showSlides(slideIndex);
-
-	      function plusSlides(n) {
-	        showSlides(slideIndex += n);
-	      }
-
-	      function currentSlide(n) {
-	        showSlides(slideIndex = n);
-	      }
-
-	      function showSlides(n) {
-	        var i;
-	        var slides = document.getElementsByClassName("mySlides");
-	        var dots = document.getElementsByClassName("dot");
-	        if (n > slides.length) {slideIndex = 1}    
-	        if (n < 1) {slideIndex = slides.length}
-	        for (i = 0; i < slides.length; i++) {
-	            slides[i].style.display = "none";  
-	        }
-	        for (i = 0; i < dots.length; i++) {
-	            dots[i].className = dots[i].className.replace(" active", "");
-	        }
-	        slides[slideIndex-1].style.display = "block";  
-	        dots[slideIndex-1].className += " active";
-	      }
-	    </script>
-
-		<!-- <script srs="script/js.js"></script> --> <!-- Підключаю JavaScript-файл -->
+		<script src="script/js.js"></script> <!-- Підключаю JavaScript-файл -->
 	</body>
 </html>
