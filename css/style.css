@@ -1,4 +1,4 @@
-/* GENERAL STYLES */
+/* STYLES FOR SLIDESHOWS */
 
 * {box-sizing: border-box}
 /* задаю шрифти для всього Проєкту. Якщо браузер не знаходить перший шрифт, використовує наступний */
@@ -96,10 +96,14 @@ to {opacity: 1}
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-.prev, .next,.text {font-size: 11px}
+.prev, .next, .text {font-size: 11px}
 }
+
+/* ----------------------------------------------------------------------------------------------------------
 
 /* Styles for text */
 h1, h3, p {text-align: center; color: gray;}
 h1 {font-size: 20px;}
 h3 {font-size: 15px;}
+
+div {margin: 10px;}
